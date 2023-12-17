@@ -1,6 +1,6 @@
 build {
 
-  name = "linux-builder"
+  name = "packer-task"
   source "source.amazon-ebs.vm" {
     ssh_username = "ubuntu"
   }
