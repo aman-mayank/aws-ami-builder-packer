@@ -25,5 +25,5 @@ variable "subnet_id" {
 
 variable "security_group_id" {
   type    = string
-  default = "sg-0c69a2b260a32e865"
+  default = "sg-0c6195b5fe9f10c4e"
 }
