@@ -13,10 +13,6 @@ variable "ami_name" {
   default = "packer-ami"
 }
 
-variable "base_ami" {
-  type    = string
-  default = "ami-09a81b370b76de6a2"
-}
 
 variable "subnet_id" {
   type    = string
