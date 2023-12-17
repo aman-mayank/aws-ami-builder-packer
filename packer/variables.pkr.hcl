@@ -20,10 +20,10 @@ variable "base_ami" {
 
 variable "subnet_id" {
   type    = string
-  default = "subnet-082b060946eb5be38"
+  default = "subnet-0e072451cf4d8ba73"
 }
 
 variable "security_group_id" {
   type    = string
-  default = "sg-0c6195b5fe9f10c4e"
+  default = "sg-0c69a2b260a32e865"
 }
