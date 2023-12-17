@@ -3,7 +3,7 @@ source "amazon-ebs" "vm" {
   subnet_id                   = "${var.subnet_id}"
   security_group_id           = "${var.security_group_id}"
   ami_name                    = "${var.ami_name}"
-  source_ami_filter {
+source_ami_filter {
     filters = {
       virtualization-type = "hvm"
       architecture = "x86_64"
