@@ -15,7 +15,7 @@ variable "ami_name" {
 
 variable "base_ami" {
   type    = string
-  default = "ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-20230919"
+  default = "ami-09a81b370b76de6a2"
 }
 
 variable "subnet_id" {
